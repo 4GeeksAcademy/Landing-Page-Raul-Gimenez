@@ -1,4 +1,38 @@
 
+.LaNavbar {
+background-color: black;
+
+}
+.LaNavbar .nav-link {
+    color: cornflowerblue;
+}
+.LaNavbar .navbar-brand{
+  color: white;
+  
+}
+.LaNavbar a.navbar-brand:hover,
+.LaNavbar a.nav-link:hover {
+  color: blue;
+}
+#menuBurger{
+    color: white;
+  }
+  
+footer {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+  }
+ 
+  
+  
+  
+  
+  
 /* 
 
     You can write your own styles here...
