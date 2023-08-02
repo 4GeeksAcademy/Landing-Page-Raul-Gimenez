@@ -1,7 +1,9 @@
+import React from "react";
+
 const Card = ({img, title, description, button}) => {
     return (
-        <div className="col-xs-12 g-col-sm-6 g-col-lg mg-3">
-            <div className="card" style={{width:"18rem"}}>
+        <div className="col-xs-12 col-sm-6 col-lg-3 mg-3">
+            <div className="card">
                 <img src={img} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
@@ -12,3 +14,5 @@ const Card = ({img, title, description, button}) => {
         </div>
     )
 }
+
+export default Card;
