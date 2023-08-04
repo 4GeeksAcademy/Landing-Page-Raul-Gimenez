@@ -10,6 +10,7 @@ import { Footer } from "./Footer";
 const Home = () => {
 	return (
 		<div id="mainDiv">
+			<div>
 			<Navbar/>
 				<div className="d-flex justify-content-center m-3">
 					<div id="mainContainer" className="container d-flex justify-content-center m-3">
@@ -39,8 +40,10 @@ const Home = () => {
 						description = "This is a description of the fourth card"
 						button = "Find out More!"
 						/>
+						
 						</div>
 					</div>
+				</div>
 				</div>
 			<Footer />
 		</div>

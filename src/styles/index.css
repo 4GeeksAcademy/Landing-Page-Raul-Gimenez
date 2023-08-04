@@ -28,10 +28,12 @@ footer {
     color: white; 
     text-align: center; 
     padding: 10px; 
+    margin-top: auto !important;
+    margin-bottom: 0 !important;
   }
 
 #mainDiv {
-    height: 100vh;
+    min-height: 100vh;
 }
  
   
