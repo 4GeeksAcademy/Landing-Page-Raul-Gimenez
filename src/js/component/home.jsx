@@ -12,7 +12,8 @@ const Home = () => {
 		<div id="mainDiv">
 			<Navbar/>
 				<div className="d-flex justify-content-center m-3">
-					<div id="mainContainer" className="container row d-flex justify-content-center m-3">
+					<div id="mainContainer" className="container d-flex justify-content-center m-3">
+						<div className="row justify-content-betwen">
 						<Jumbotron />
 						<Card 
 						img = "https://e1.pxfuel.com/desktop-wallpaper/997/601/desktop-wallpaper-yamaha-r1m-with-sc-r1m-black.jpg"
@@ -38,6 +39,7 @@ const Home = () => {
 						description = "This is a description of the fourth card"
 						button = "Find out More!"
 						/>
+						</div>
 					</div>
 				</div>
 			<Footer />
